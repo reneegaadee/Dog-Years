@@ -1,17 +1,17 @@
 const myAge = 41;
-//mi edad
+//my age
 let earlyYears = 2;
-//va a cambiar
+//plus 2
 earlyYears *= 10.5;
 let laterYears = myAge -2;
-//mi edad menos 2
+//my age minus 2
 laterYears = myAge * 4;
-//para que se multiplique por 4
+//the later years will be multiplied by 4
 console.log(`This is equivalent to the first 2 years of a dog: ${earlyYears}`);
 console.log(`This is equivalent to the remaining ${myAge -2} of a dog: ${laterYears}`);
 let myAgeInDogYears = earlyYears + laterYears;
 console.log(`My Age in dog years is: ${myAgeInDogYears}`);
-//el total de mi edad en perro
+//my total age in dog years
 let myName = 'Renee'.toLowerCase();
-//mi nombre en minusculas
+//my name in lower caps
 console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years`);
